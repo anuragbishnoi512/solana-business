@@ -10,7 +10,7 @@
 }
 
 .section-3 {
-    height: 76vh;
+    height: 43vh;
     background-color: #FFF03F;
 }
 
@@ -401,4 +401,83 @@
 
 .jhone-doe {
     margin-top: 26px;
+}
+
+.section-8 {
+    background-color: #F6E300;
+}
+
+.faq {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    padding-top: 58px;
+    padding-bottom: 26px;
+}
+
+/* ------------------------- */
+.accordion {
+    background-color: #FFF03F;
+    color: #000000;
+    cursor: pointer;
+    padding: 18px;
+    width: 922px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.active,
+.accordion:hover {
+    background-color: #ffec1e;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    width: 922px;
+    background-color: #FFF03F;
+    overflow: hidden;
+}
+
+.pb-7 {
+    padding-bottom: 7px;
+}
+
+.pl-13 {
+    padding-left: 13%;
+}
+
+.pnl-text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.pt-88 {
+    padding-top: 88px;
+    padding-bottom: 26px;
+}
+
+.svg-X {
+    gap: 40px;
+}
+
+.copyright {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: center;
+    padding-top: 52px;
+    padding-bottom: 44px;
 }
