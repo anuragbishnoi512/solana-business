@@ -2,10 +2,16 @@
 
 .header-1 {
     background-color: #F6E300;
+    z-index: 15;
 }
 
 .section-2 {
     background-color: #F6E300;
+}
+
+.section-3 {
+    height: 76vh;
+    background-color: #FFF03F;
 }
 
 .home-btn {
@@ -62,16 +68,148 @@
 }
 
 .welcome {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
+    padding-top: 71px;
 }
 
 .open {
     bottom: 60px;
 }
 
+
+.discover {
+    border-radius: 10px;
+    background-color: #F4241E;
+    text-decoration: none;
+    border: none;
+    color: white;
+    width: 219px;
+    height: 53px;
+}
+
+.discover:hover {
+    background-color: #5326FF;
+    color: #F5F5F5;
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 5px 8px 14px 0px rgba(214, 18, 18, 0.831);
+}
+
+.popular {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: black;
+}
+
+.para-1 {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+}
+
+.burger-1 {
+    top: 25px;
+    left: 29px;
+}
+
 .burger-2 {
     top: 251px;
+    left: 15px;
+}
+
+.burger-3 {
+    top: 44px;
+    left: 261px;
+}
+
+.burger-4 {
+    top: 62px;
+    right: 334px;
+}
+
+.burger-5 {
+    top: 276px;
+    right: 176px;
+}
+
+.burger-6 {
+    top: 14px;
+    right: 68px;
+}
+
+.burger-7 {
+    top: 312px;
+    left: 230px;
+}
+
+.burger-8 {
+    top: 251px;
+    right: 9px;
+}
+
+.pt-66 {
+    padding-top: 66px;
+}
+
+.w-45 {
+    width: 45%;
+}
+
+.cartoon {
+    right: 94px;
+    bottom: -113px;
+}
+
+/* ------------section-4----- */
+.gap-16 {
+    gap: 20px;
+}
+
+.section-4 {
+    background-color: #F6E300;
+}
+
+.mt-16 {
+    margin-top: 16px;
+}
+
+.pt-50 {
+    padding-top: 114px;
+}
+.pb-114{
+    padding-bottom: 114px;
+}
+.section-5 {
+    background-color: #F4241E;
+}
+
+.supplies {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #F4FAFE;
+}
+
+.num-33 {
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    color: white;
+}
+
+.public {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32.4px;
+    color: white;
 }
