@@ -385,3 +385,20 @@
     bottom: 6%;
     right: 26%;
 }
+
+.team {
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    padding-bottom: 38px;
+}
+
+.section-7 {
+    background-color: #FFF03F;
+}
+
+.jhone-doe {
+    margin-top: 26px;
+}
