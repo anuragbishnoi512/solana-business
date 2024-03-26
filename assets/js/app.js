@@ -12,3 +12,11 @@ for (i = 0; i < acc.length; i++) {
         }
     });
 }
+
+
+const menuIcon = document.querySelector(".menuicon");
+const menuList = document.querySelector(".menulist");
+
+menuIcon.addEventListener("click", function () {
+    menuList.classList.toggle("show");
+})
